@@ -21,6 +21,7 @@
 		63A597AA1999CCC700929B1B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63A5978C1999CCC700929B1B /* UIKit.framework */; };
 		63A597B21999CCC700929B1B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 63A597B01999CCC700929B1B /* InfoPlist.strings */; };
 		63A597B41999CCC700929B1B /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 63A597B31999CCC700929B1B /* Git_TestTests.m */; };
+		63A597BF1999D8F200929B1B /* DJHTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 63A597BE1999D8F200929B1B /* DJHTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		63A597AF1999CCC700929B1B /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		63A597B11999CCC700929B1B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		63A597B31999CCC700929B1B /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		63A597BD1999D8F200929B1B /* DJHTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJHTest.h; sourceTree = "<group>"; };
+		63A597BE1999D8F200929B1B /* DJHTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJHTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				63A5979A1999CCC700929B1B /* Main.storyboard */,
 				63A5979D1999CCC700929B1B /* DJHViewController.h */,
 				63A5979E1999CCC700929B1B /* DJHViewController.m */,
+				63A597BD1999D8F200929B1B /* DJHTest.h */,
+				63A597BE1999D8F200929B1B /* DJHTest.m */,
 				63A597A01999CCC700929B1B /* Images.xcassets */,
 				63A5978F1999CCC700929B1B /* Supporting Files */,
 			);
@@ -252,6 +257,7 @@
 			files = (
 				63A597951999CCC700929B1B /* main.m in Sources */,
 				63A5979F1999CCC700929B1B /* DJHViewController.m in Sources */,
+				63A597BF1999D8F200929B1B /* DJHTest.m in Sources */,
 				63A597991999CCC700929B1B /* DJHAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
